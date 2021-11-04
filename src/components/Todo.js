@@ -86,10 +86,6 @@ export default function Todo(props) {
     </div>
   );
 
-  function handleChange(id) {
-    props.onToggleTaskCompleted(id);
-  }
-
   function handleNameChange(e) {
     setNewName(e.target.value);
   }
